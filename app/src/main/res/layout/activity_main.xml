@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main__bai__huay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_2"
+        android:onClick="onClick"
+        android:text="เลขท้าย 2 ตัว"
+        android:textSize="36sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="#fdd2b5"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="เลขท้าย 3 ตัว"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="20dp"
+        android:textSize="36sp"
+        android:background="#fdd2b5"
+        android:layout_marginTop="32dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_3"
+        android:layout_below="@+id/button_2"
+        android:layout_alignLeft="@+id/button_2"
+        android:layout_alignStart="@+id/button_2" />
+
+
+</RelativeLayout>

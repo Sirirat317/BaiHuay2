@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:text="Random Number"
+        android:ems="10"
+        android:id="@+id/Text_1"
+        android:textSize="30sp"
+        android:textColor="#fdd2b5" />
+
+    <TextView
+        android:text="TextView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text_2"
+        android:textSize="80sp"
+        android:textColor="#fdd2b5" />
+</LinearLayout>
